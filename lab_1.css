@@ -1,0 +1,73 @@
+h1 {
+  color: #0066ff;
+  font-family: 'verdana';
+  text-align: center;
+}
+
+h2,
+h3,
+h4 {
+  color: #000000;
+  font-family: 'verdana';
+  text-align: left;
+  text-decoration: underline;
+}
+
+img {
+  border: 2px solid #ff0000;
+}
+
+
+p {
+  margin-right: 20px;
+  font-size: 36px;
+}
+
+.tmap {
+  float: left;
+}
+
+.tmap img {
+  width: 320px;
+  height: 400px;
+}
+
+#turkeymap img {
+  width: 256px;
+  height: 128px;
+}
+
+.list_item {
+  color: #cc9900;
+  font-style: italic;
+  font-size: 72px;
+}
+
+.tmap img:hover {
+  border: 2px solid #3333cc;
+  transform: scale(1.1);
+}
+
+
+a:link {
+  color: #1affd1;
+  text-decoration: underline;
+  text-decoration-color: #1affd1;
+}
+
+a:visited {
+  color: #1aff1a;
+  text-decoration: underline;
+  text-decoration-color: #1aff1a;
+}
+
+a:hover {
+  color: #ff1a1a;
+  text-decoration: none;
+  font-size: 125%;
+}
+
+a:active {
+  color: #1a1aff;
+  text-decoration: none;
+}
